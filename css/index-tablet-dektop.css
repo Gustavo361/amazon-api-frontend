@@ -1,3 +1,5 @@
+/* Just the HMTL styling above 600px with plain CSS*/
+
 @media (min-width:600px) {
     body {
         display: flex;
