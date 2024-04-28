@@ -7,7 +7,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&family=Raleway:wght@300;500;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-        <link rel="shortcut icon" href="images/logo-amazon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo-amazon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index-tablet-dektop.css">
     <script defer src="index.js"></script>
@@ -19,7 +19,7 @@
         Creating a section with a form for users to input keywords.
         It also includes a link to my repository, which contains both the front and backend.
     -->
-    
+
     <section>
         <header>
             <img src="images/amazon-logo.png" alt="amazon-logo">
@@ -33,6 +33,18 @@
         </form>
         <div data-key-word-results></div>
     </section>
+
+    <!-- A display error window -->
+    <div data-error-window>
+        <div data-error-box>
+            <header>
+                <ion-icon name="alert-circle-outline"></ion-icon>
+                <span>Something went wrong</span>
+            </header>
+            <span data-error-span>fwefew</span>
+            <button data-error-button>Got it!</button>
+        </div>
+    </div>
 
     <!-- importing the icon from Ionicons library. -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

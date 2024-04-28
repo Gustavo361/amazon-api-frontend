@@ -3,6 +3,17 @@ const form = document.querySelector('form')
 const keywordInput = document.querySelector('[data-key-word-input]')
 const keywordResults = document.querySelector('[data-key-word-results]')
 
+// Selecting all the elements needed to display the errors
+const closeButton = document.querySelector('[data-error-button]')
+const errorWindow = document.querySelector('[data-error-window]')
+const errorSpan = document.querySelector('[data-error-span]')
+
+// Adiciona um ouvinte de evento de clique ao botão
+closeButton.addEventListener('click', function() {
+    // Removes the active class
+    errorWindow.classList.remove('active')
+})
+
 // As soon as the form button is clicked, the code collects the input value and sends it to MY server.
 form.addEventListener('submit', async (e) => {
     e.preventDefault()

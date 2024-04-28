@@ -108,3 +108,79 @@ div[data-key-word-results]::-webkit-scrollbar-thumb {
 [data-key-word-results] span {
     font-weight: 900;
 }
+
+[data-error-window].active {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-error-window] {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.288);
+    z-index: 1;
+}
+
+[data-error-window] [data-error-box] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #A6A6A6;
+    width: 90%;
+    max-width: 460px;
+    height: auto;
+    /* padding: 4%; */
+    background-color: #FFFFFF;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+[data-error-window] [data-error-box] header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+[data-error-window] [data-error-box] header ion-icon {
+    font-size: 42px;
+    color: #FF9900;
+    padding-top: 6%;
+}
+
+[data-error-window] [data-error-box] header span {
+    margin-left: 3px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+[data-error-window] [data-error-box] [data-error-span] {
+    display: block;
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+[data-error-window] [data-error-box] [data-error-button] {
+    width: 100%;
+    padding: 4%;
+    background-color: #FF9900;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+
+[data-error-window] [data-error-box] [data-error-button]:hover {
+    background-color: #dd8603;
+}
