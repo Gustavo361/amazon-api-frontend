@@ -1,20 +1,30 @@
 @media (min-width:600px) {
+    body {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     section {
         padding: 1.4%;
     }
 
-    section form input {
-        padding-top: 2%;
-        padding-bottom: 2%;
+    [data-key-word-input] {
+        padding: 3% 2%;
+        font-size: 18px;
     }
 
-    section form button {
-        padding-top: 2%;
-        padding-bottom: 2%;
-        border-radius: 10px;
+    [data-key-word-input]:focus {
+        padding: 3% 2%;
+        font-size: 18px;
+    }
+
+    [data-key-word-button] {
+        padding: 0 3%;
     }
 
     [data-key-word-results] {
         padding: 1.4%;
+        max-width: initial;
+        max-height: initial;
     }
 }
