@@ -104,7 +104,7 @@ div[data-key-word-results]::-webkit-scrollbar-thumb {
     background-color: #FF9900;
     border-radius: 10px;
 }
-
+ 
 [data-key-word-results] span {
     font-weight: 900;
 }
