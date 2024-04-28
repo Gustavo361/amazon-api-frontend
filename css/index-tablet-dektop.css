@@ -1,0 +1,20 @@
+@media (min-width:600px) {
+    section {
+        padding: 1.4%;
+    }
+
+    section form input {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    section form button {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 10px;
+    }
+
+    [data-key-word-results] {
+        padding: 1.4%;
+    }
+}
