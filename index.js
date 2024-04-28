@@ -13,9 +13,8 @@ form.addEventListener('submit', async (e) => {
         alert('Enter a valid keyword')
         return
     }
-
     try {
-        let response = await fetch(`http://localhost:3000/api/scrape?keyword=${encodeURIComponent(keyword)}`)
+        let response = await fetch(`https://amazon-api-server.onrender.com/api/scrape?keyword=${encodeURIComponent(keyword)}`)
         let data = await response.json()
 
         keywordResults.innerHTML = ''
