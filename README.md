@@ -43,11 +43,11 @@ Gustavo Faustino
 
 ## Pictures
 ### desktop
-![desktop-design](./frontend/images/design/desktop-clean.jpg)
-![desktop-design](./frontend/images/design/desktop-filled.jpg)
+![desktop-design](images/design/desktop-clean.jpg)
+![desktop-design](images/design/desktop-filled.jpg)
 ### mobile
-![mobile-design](./frontend/images/design/mobile-clean.jpeg)
-![mobile-design](./frontend/images/design/mobile-filled.jpeg)
+![mobile-design](images/design/mobile-clean.jpeg)
+![mobile-design](/images/design/mobile-filled.jpeg)
 
 # Contact
 1. e-mail: gustavofaustino361@gmail.com
